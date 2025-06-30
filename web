@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bluemoon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <h1>136</h1>
+    <p>Siêu mạnh. Siêu nhẹ. Siêu Pro.</p>
+    <a href="#">Tìm hiểu thêm</a>
+  </section>
+</body>
+</html>
