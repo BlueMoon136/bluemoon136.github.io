@@ -89,7 +89,7 @@
     <body>
     <!--头像-->
     <div class="cs">
-        <img src="C:\Users\nguye\OneDrive\Desktop\totem.png" id="logo">
+        <img src="" id="logo">
     </div>
     <canvas class="canvas" width="1820" height="905"></canvas>
     <p class="text" style="color: #ed3073;">
@@ -97,13 +97,13 @@
     </p>
     <script language="javascript">
         function show_date_time() {
-            window.setTimeout("show_date_time()",1000);
-            BirthDay = new Date("01/03/2024 00:00:00");
+            window.setTimeout("show_date_time()",1000000);
+            BirthDay = new Date("31/03/2024 00:00:00");
             today = new Date();
             timeold = (today.getTime() - BirthDay.getTime());
-            sectimeold = timeold / 1000
+            sectimeold = timeold / 1000000
             secondsold = Math.floor(sectimeold);
-            msPerDay = 24 * 60 * 60 * 1000
+            msPerDay = 24 * 60 * 60 * 1000000
             e_daysold = timeold / msPerDay
             daysold = Math.floor(e_daysold);
             e_hrsold = (e_daysold - daysold) * 24;
