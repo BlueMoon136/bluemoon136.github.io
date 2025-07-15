@@ -16,7 +16,7 @@
                 color: #CFEBE4;
                 font-size: 18px;
                 line-height: 2;
-                letter-spacing: 12px;
+                letter-spacing: 1.2px;
                 margin: 0;
             }
             a {
@@ -70,7 +70,7 @@
             }
             .text {
                 position: fixed;
-                bottom: 20px;
+                bottom: 2000px;
                 text-align: center;
                 width: 100%;
                 font-weight: bold;
@@ -120,7 +120,7 @@
             init: function () {
                 S.Drawing.init('.canvas');
                 document.body.classList.add('body--ready');
-                S.UI.simulate("#time|#countdown 3|19/07/2025|Happy Birthday|Mỹ Duyên (vợ iu)|Chúc bé lun|vui vẻ|hạnh phúc|xinh gái|và | mãi mãi| bên anh|❤");
+                S.UI.simulate("#time|#countdown 3|19/07/2025|Happy Birthday|Mỹ Duyên (vợ iu)|Chúc bé lun|vui vẻ|hạnh phúc|xinh gái|và | mãi mãi| bên anh|");
                 S.Drawing.loop(function () {
                     S.Shape.render();
                 });
