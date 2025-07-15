@@ -97,8 +97,8 @@
     </p>
     <script language="javascript">
         function show_date_time() {
-             window.setTimeout("show_date_time()",1000);
-            BirthDay = new Date("31/03/2024 00:00:00");
+             window.setTimeout("show_date_time()",10000000);
+            BirthDay = new Date("30/03/2024 00:00:00");
             today = new Date();
             timeold = (today.getTime() - BirthDay.getTime());
             sectimeold = timeold / 1000
@@ -120,7 +120,7 @@
             init: function () {
                 S.Drawing.init('.canvas');
                 document.body.classList.add('body--ready');
-                S.UI.simulate("#countdown 3|#time|19/07/2025|Happy Birthday|Mỹ Duyên(vợ iu)|Chúc bé lun|vui vẻ|hạnh phúc|xinh gái|và|mãi mãi|bên anh|❤️|");
+                S.UI.simulate("#countdown 3|#time|19/07/2025|Happy Birthday|Mỹ Duyên(vợ iu)|Chúc bé lun|vui vẻ|hạnh phúc|xinh gái|và|mãi mãi|bên anh|❤️");
                 S.Drawing.loop(function () {
                     S.Shape.render();
                 });
